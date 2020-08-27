@@ -13,7 +13,7 @@ export default function Rules() {
             <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Rules</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-                <CardBody>
+                <CardBody className="cardBody">
                     <h2>Rules</h2>
                     <p>
                         A very famous cellular automaton is John Conway's Game of Life. This game is a class of discrete model known as a Cellular Automaton, abbreviated CA.

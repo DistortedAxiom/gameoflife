@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <div className="header-container">
         <h1>
           Conway's Game Of Life
