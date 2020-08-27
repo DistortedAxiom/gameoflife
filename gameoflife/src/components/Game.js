@@ -205,6 +205,12 @@ export default function Game() {
                         }
                     }}>Start</Button>
                     <Button onClick={() => {
+                        setGrid(runGame(grid))
+                        setGeneration(generation + 1)
+                    }}>
+                        Next
+                    </Button>
+                    <Button onClick={() => {
                         setRunning(false);
                     }}>Stop</Button>
                     <Button onClick={() => {
